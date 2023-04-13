@@ -1,0 +1,14 @@
+CREATE TABLE paiss (
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   nome VARCHAR(255) NOT NULL,
+   sigla VARCHAR(255)  NOT NULL,
+   gentilico VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE usuarioo (
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   administrador boolean NOT NULL,
+   login VARCHAR(255) NOT NULL,
+   nome VARCHAR(255) NOT NULL,
+   senha VARCHAR(255) NOT NULL
+);
